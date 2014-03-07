@@ -3,5 +3,5 @@
     <project path="device/samsung/msm7x27a-common" name="Giugiu19/android_device_samsung_msm7x27a-common" revision="cm7.2" />
     <project path="device/samsung/trebon" name="Giugiu19/android_device_samsung_s7500" revision="cm7.2" />
     <project path="vendor/samsung" name="Giugiu19/proprietary_vendor_samsung_msm7x27a" revision="jellybean" />
-    <project path="kernel/samsung/msm7x27a" name="Giugiu19/Android_SpeedKernel_2.6" revision="master" />
+    <project path="kernel/samsung/msm7x27a" name="Giugiu19/Android_SpeedKernel" revision="cm-7.2.0" />
 </manifest>
