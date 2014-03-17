@@ -12,5 +12,5 @@
     <!-- FM Radio -->
     <project path="hardware/qcom/fm-mr1" name="legaCyMod/android_hardware_qcom_fm" revision="cm-11.0" />
     <project path="packages/apps/FM2" name="legaCyMod/android_packages_apps_FM2" revision="cm-11.0" />
-
-
+    <project path="hardware/qcom/camera-chocodot" name="trebon-chocodot/platform_hardware_qcom_camera-chocodot" revision="master" />
+    <project path="vendor/Chocodot" name="trebon-chocodot/android_vendor_Chocodot" revision="android-4.4" /
