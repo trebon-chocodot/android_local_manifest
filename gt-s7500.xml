@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>   
-    <project path="device/samsung/msm7x27a-common" name="Giugiu19/android_device_samsung_msm7x27a-common" revision="omni_4.4" />
-    <project path="device/samsung/trebon" name="Giugiu19/android_device_samsung_s7500" revision="omni_4.4" />
+    <project path="device/samsung/msm7x27a-common" name="trebon-chocodot/android_device_samsung_msm7x27a-common" revision="omni_4.4" />
+    <project path="device/samsung/trebon" name="trebon-chocodot/android_device_samsung_s7500" revision="omni_4.4" />
     <project path="vendor/samsung" name="Giugiu19/proprietary_vendor_samsung_msm7x27a" revision="cm-10.2-old-adreno" />
-    <project path="kernel/samsung/msm7x27a" name="Giugiu19/Android_SpeedKernel" revision="master" />
+    <project path="kernel/samsung/msm7x27a" name="trebon-chocodot/Android_SpeedKernel_3.4" revision="master" />
 </manifest>
