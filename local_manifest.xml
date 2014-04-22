@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <!-- CM replacements -->
-    <remove-project name="CyanogenMod/android_frameworks_native" />
-    <project path="frameworks/native" name="omnirom/android_frameworks_native" revision="android-4.4" />
+    <remove-project name="android_frameworks_native" />
+    <project path="frameworks/native" name="trebon-chocodot/android_frameworks_native" remote="github" revision="master" />
 
     <!-- Local projects -->
-    <project path="hardware/atheros/wlan" name="Giugiu19/android_hardware_atheros_wlan" revision="cm-11.0" />
-    <project path="hardware/qcom/display-legacy" name="Giugiu19/android_hardware_qcom_display-legacy" revision="jellybean-mr2" />
-    <project path="hardware/qcom/media-legacy" name="Giugiu19/android_hardware_qcom_media-legacy" revision="jellybean-mr2" />
-
-    <!-- FM Radio -->
-    <project path="hardware/qcom/fm-mr1" name="legaCyMod/android_hardware_qcom_fm" revision="cm-11.0" />
-    <project path="packages/apps/FM2" name="legaCyMod/android_packages_apps_FM2" revision="cm-11.0" />
-    <project path="hardware/qcom/camera-chocodot" name="trebon-chocodot/platform_hardware_qcom_camera-chocodot" revision="master" />
-    <project path="vendor/Chocodot" name="trebon-chocodot/android_vendor_Chocodot" revision="android-4.4" /
+    <project path="hardware/atheros/wlan" name="trebon-chocodot/android_hardware_atheros_wlan" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/display-legacy" name="trebon-chocodot/android_hardware_qcom_display-legacy" remote="github" revision="jellybean-mr2" />
+    <project path="hardware/qcom/media-legacy" name="trebon-chocodot/android_hardware_qcom_media-legacy" remote="github" revision="jellybean-mr2" />
+    <project path="device/samsung/trebon" name="trebon-chocodot/android_device_samsung_trebon" remote="github" revision="android-4.4" />
+    <project path="vendor/samsung" name="trebon-chocodot/proprietary_vendor_samsung_msm7x27a" remote="github" revision="cm-10.2" />
+</manifest>
